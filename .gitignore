@@ -37,16 +37,21 @@ public_html/files/*
 !public_html/files/.gitkeep
 
 # ---------------------------------------------------------------
-# Heavy media - kept on the server only (GitHub: 100 MB/file, 2 GB/push)
+# Files over 100 MB - GitHub rejects them; kept on the server only
 # ---------------------------------------------------------------
-public_html/media/
-public_html/videos/
-public_html/enews/
-*.mp4
-*.mov
-*.pdf
-*.zip
-*.psd
+public_html/support/software/Ionic-OS-1.11-11242022-release.pur.zip
+public_html/support/software/Ionic-OS-1.9-09222022-release.pur.zip
+public_html/media/vid/Webinar-AMP-2020-Workshop-Rose.mp4
+public_html/media/vid/vid-purigen-ionic-system-main.mov
+public_html/media/vid/Webinar - FFPE on Oxford Global - v01.mp4
+public_html/media/vid/vid-purigen-ffpe-workflow-v01a.mp4
+public_html/media/vid/vid-purigen-itp-v02.mov
+public_html/media/vid/vid-purigen-ionic-system-main-high.mp4
+public_html/media/vid/vid-purigen-demo-ionic-system-01c.mp4
+public_html/media/vid/vid-purigen-demo-ionic-system-01b.mp4
+public_html/media/vid/vid-purigen-demo-ionic-system-01a.mp4
+public_html/media/vid/vid-purigen-ffpe-workflow-step05-v01b.mp4
+public_html/images/events/hero-events-purigen-02.psd
 
 # ---------------------------------------------------------------
 # Sphider runtime data (search logs, caches, generated sitemaps)
