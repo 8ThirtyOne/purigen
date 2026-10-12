@@ -1,0 +1,33 @@
+<?php
+
+declare(strict_types=1);
+
+namespace MyProject\Migrations;
+
+use Doctrine\DBAL\Schema\Schema;
+use Doctrine\Migrations\AbstractMigration;
+use models\Literature;
+
+/**
+ * Auto-generated Migration: Please modify to your needs!
+ */
+final class Version20200318094313 extends AbstractMigration
+{
+    public function getDescription() : string
+    {
+        return '';
+    }
+
+    public function up(Schema $schema) : void
+    {
+        $reg_disable = Literature::REGISTRATION_DISABLE;
+        $this->abortIf($this->connection->getDatabasePlatform()->getName() !== 'mysql', 'Migration can only be executed safely on \'mysql\'.');
+        $this->addSql("ALTER TABLE literature ADD is_opened_registration int(1) NOT NULL DEFAULT $reg_disable, ADD registration_header TEXT");
+    }
+
+    public function down(Schema $schema) : void
+    {
+        $this->abortIf($this->connection->getDatabasePlatform()->getName() !== 'mysql', 'Migration can only be executed safely on \'mysql\'.');
+        $this->addSql('ALTER TABLE `literature` DROP is_opened_registration, DROP registration_header');
+    }
+}

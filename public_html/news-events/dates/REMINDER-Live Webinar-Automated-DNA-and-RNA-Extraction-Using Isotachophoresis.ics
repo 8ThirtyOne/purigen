@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft Corporation//Outlook for Mac MIMEDIR//EN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Eastern Time (US & Canada)
+X-ENTOURAGE-CFTIMEZONE:US/Eastern
+X-ENTOURAGE-TZID:4
+BEGIN:STANDARD
+RRULE:FREQ=YEARLY;INTERVAL=1;BYSECOND=0;BYMINUTE=0;BYHOUR=2;BYDAY=1SU;BYMO
+ NTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:20071104T020000
+END:STANDARD
+BEGIN:DAYLIGHT
+RRULE:FREQ=YEARLY;INTERVAL=1;BYSECOND=0;BYMINUTE=0;BYHOUR=2;BYDAY=2SU;BYMO
+ NTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:20070311T020000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E00800000000CC3B2E779A1AD70100000000000000
+ 00100000005D640E81CDEC6D4E8BA193B37C3D5563
+X-ENTOURAGE_UUID:AF123EB3-A2AC-47C1-BE77-82C98F74743B
+X-MICROSOFT-EXCHANGE-ID:AAMkADc2Y2I1OTRkLTg2OTQtNDhiMS1hZDJhLTAxZWNkMDc0MG
+ I5MQBGAAAAAABTdrCE9aKWRor76SZe47u1BwAweHZFd3ewSqCeS3fWtUKuAAAAAAENAAAweHZF
+ d3ewSqCeS3fWtUKuAAGTt30ZAAA=
+X-MICROSOFT-EXCHANGE-CHANGEKEY:MHh2RXd3sEqgnkt31rVCrgABkvHW9w==
+DTSTAMP:20210316T193258Z
+DTSTART;TZID="Eastern Time (US & Canada)":20210331T100000
+DTEND;TZID="Eastern Time (US & Canada)":20210331T110000
+LAST-MODIFIED:20210316T193258Z
+SUMMARY:Live Webinar: Automated DNA and RNA Extraction Using
+  Isotachophoresis - Purigen Biosystems
+DESCRIPTION:Dear Registrant\,\n\n \n\nThank you for joining us for this
+  webinar. Please see below for meeting info and access via
+  RingCentral:\n\n \n\nJoin from PC\, Mac\, Linux\, iOS or Android:\n\n
+  \n\nhttps://meetings.ringcentral.com/j/5014799287\n\n \n\nFor the best
+  audio experience\, please use computer audio.\n\n \n\nOr iPhone
+  one-tap:\n\n    US: +1(470) 869-2200\,\,5014799287# \n\n \n\nOr
+  Telephone:\n\n    Dial(for higher quality\, dial a number based on your
+  current location): \n\n    US: +1(470) 869-2200 \n\n \n\n    Meeting ID:
+  501 479 9287\n\n    International numbers available:
+  https://meetings.ringcentral.com/teleconference\n\n \n\n \n\nFor more
+  info (flyer)\, please download: \n\nWebinar Flyer (PDF)\n\n \n\n
+  \n\nBest regards\,\n\n \n\nMIKE MORROW\nTechnical Commercial Development
+  Manager\nmike.morrow@purigenbio.com\n\nThe information contained in this
+  email may be confidential and has been sent for the sole use of the
+  intended recipient(s). If you have received this email in error\, please
+  notify the sender.\n\n \n
+LOCATION:ONLINE: RingCentral
+ORGANIZER:MAILTO:Paul.Moon@purigenbio.com
+SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-INSTTYPE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT00H15M00S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

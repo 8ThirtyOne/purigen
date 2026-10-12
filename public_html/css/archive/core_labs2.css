@@ -1,0 +1,82 @@
+.contents-visual.core_labs_hero {
+    background-image: url(../images/resources/hero-purigen-core-labs-01c.jpg);
+}
+.core_contact_info {
+    font-family: 'Roboto-Book';
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #54565a;
+    padding: 20px 0 10px 0;
+}
+
+.core_contact_name {
+    font-family: 'Forza-Bold';
+    color: #0b1015;
+    font-size: 18px;
+	line-height: 1.1;
+	padding-top: 5px;
+}
+
+.core_lab_info {
+    width: 85%;
+    padding: 20px 0 20px 0;
+}
+
+.core_lab_info div .title {
+    font-weight: bold;
+    width: 25%;
+    display: inline-block;
+}
+
+.core_lab_info div .value {
+    display: inline-block;
+	font-family: 'Forza-Medium';
+	font-size: 15px;
+	color: #427CBF;
+}
+
+.core_lab_main {
+    font-family: 'Forza-Bold';
+	font-size: 22px;
+	display: block;
+	padding-bottom: 8px;
+	color: #000;
+	line-height: 1.3;
+}
+
+.core_lab_title {
+    font-family: 'Forza-Book';
+	font-size: 20px;
+	line-height: 1.3;
+}
+
+.contents-subtitle {
+    font-family: 'Forza-Book';
+	font-size: 14px;
+	line-height: 1.5;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.core_lab_organization {
+    font-family: 'Forza-Book';
+    font-size: 13px;
+	line-height: 1.3;
+    color: #54565a;
+}
+
+.core_labs_hero .core_lab_article_desc
+{
+    font-family: 'Forza-Book';
+}
+
+.article_left_top .article_type.to_left.up_case {
+    font-family: 'Forza';
+}
+
+@media (max-width: 900px) {
+    .core_lab_info {
+        width: 100%;
+        padding: 20px 0 20px 0;
+    }
+}

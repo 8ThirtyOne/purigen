@@ -1,0 +1,79 @@
+@charset "utf-8";
+channel>link {
+    display: none;
+}
+rss {
+    display: block;
+    padding:20px 0;
+    width:100%
+}
+author{
+    width:70%;
+    margin:20px auto 0 auto;
+}
+title {
+    display: block;
+    margin:0 auto 0 auto;
+    color: gray;
+    /*border-bottom: 1px solid #c4d600;*/
+    text-align: center;
+    width: 62%;
+    color: #427cbf;
+    font-family: 'Forza-Bold';
+    font-size: 20px;
+    line-height: 26px;
+}
+
+title:first-child{margin-bottom:40px}
+
+link {
+    display: none;
+    font-size: small;
+    padding:20px 0;
+    margin:10px auto 0 auto;
+    width:70%;
+    text-align:center
+}
+item {
+    position:relative;
+    display: block;
+    padding:20px 0;
+    margin:0 auto 20px auto;
+    width:70%;
+    text-align:center
+}
+/* all hidden elements */
+language, lastBuildDate, ttl, guid, description, pubDate {display:none}
+item description{
+    margin:20px auto;
+    width:60%;
+    display:block;
+    background: #f6f6f6;
+    text-align: left;
+    padding: 30px;
+    color: #101820;
+    font-family: 'Roboto-Light';
+    font-size:15px;
+    line-height:22px;
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+channel>title {
+    background: #427cbf;
+    padding: 20px 0;
+    color: #fff;
+    font-family: 'Forza-Medium';
+    font-size: 22px;
+    border: 0;
+    width: 100%;
+}
+item>pubDate {
+    display: block;
+    width: 70%;
+    margin: -20px auto 20px auto;
+    font-family: 'Forza-Book';
+    font-size: 15px;
+    color: #a2a9ad;
+}

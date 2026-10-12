@@ -1,0 +1,36 @@
+p.error_message {
+    color: white;
+}
+
+div#modal_message {
+    text-align: center;
+    padding: 25px;
+    background: #427cbf;
+    border-radius: 2px;
+}
+
+span.close_modal {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+p.modal_title {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+p.error_message {
+    font-size: 18px;
+}
+p.modal_footer {
+    color: white;
+}
+#modal_message img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}

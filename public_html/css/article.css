@@ -1,0 +1,309 @@
+.to_left {
+    float: left;
+}
+
+.to_right {
+    float: right;
+}
+
+#contents_blog .contents-title {
+    margin: 60px auto 35px;
+}
+
+#contents_blog .paginate {
+    margin: 80px auto;
+}
+
+.read_article, .article_title {
+    color: #427cbf;
+}
+
+.article_left_top {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.article_right {
+    margin-top: 30px;
+    padding-left: 35px;
+}
+
+.article_title {
+    font-family: jubilat, serif;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2;
+}
+
+.article_desc {
+    font-family: Geogro-Regular, serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+.article_info {
+    margin-bottom: 20px;
+    margin-top: 12px;
+    font-family: proxima-nova-condensed, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.article_author {
+    font-family: jubilat, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.article_wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.article_background {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.row:nth-child(2n) .article_background {
+    background: #f2f2f2;
+}
+
+.row:nth-child(2n+1) .article_background {
+    background: white;
+}
+
+.article_date {
+    color: #427cbf;
+    font-family: jubilat, serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.article_view_subtitle {
+    text-align: center;
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 22px;
+    font-family: proxima-nova-condensed, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.article_view_title {
+    font-family: jubilat, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 1.2;
+    text-align: center;
+    color: #427cbf;
+    max-width: 75%;
+}
+.article_view_body h1 {
+    font-family: jubilat, sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    color: #427cbf;
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
+.article_view_body h2 {
+    font-family: proxima-nova-condensed, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #427cbf;
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
+.article_view_body h3 {
+    font-family: proxima-nova-condensed, sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    color: #6abf4b;
+    line-height: 1.2;
+    padding-bottom: 8px;
+}
+.article_view_body h5 {
+    font-family: proxima-nova-condensed, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.3;
+    padding-bottom: 3px;
+}
+.article_view_body ol {
+    margin-left: 45px;
+    list-style-type: decimal;
+}
+.article_view_body li {
+    font-family: Geogro-Light, sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    font-style: normal;
+    padding-bottom: 12px;
+    line-height: 1.2;
+}
+.article_view_body p {
+    font-family: Geogro-Light, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    color: #101820;
+    line-height: 1.6;
+    padding-bottom: 20px;
+}
+.article_view_body strong {
+    font-family: Geogro-Medium, sans-serif;
+    font-style: normal;
+	color: #101820;
+}
+.contents-visual article .article_hero_info {
+    font-family: Geogro-Light, sans-serif;
+    font-weight: 400;
+}
+
+.article_view_wrapper .article-control {
+    align-items: baseline;
+    margin-bottom: 30px;
+}
+
+.article_view_wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.article_view_info {
+    text-align: center;
+    color: #427cbf;
+    font-family: proxima-nova-condensed, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.article_tags {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.article_back_link.up_case {
+    color: #3a7bc8;
+    font-family: 'Forza-Medium';
+    font-size: 14px;
+}
+
+.article_tag {
+    background: #f2f2f2;
+    padding: 2px;
+}
+
+.article_hero_info span {
+    font-size: 20px;
+    color: #979797;
+}
+
+.article_view_wrapper .article-control a {
+    font-family: 'Roboto-Book';
+}
+
+.contents-visual.blog_hero {
+    background-image: url(../images/blogs/hero-purigen-blogs-08a.jpg);
+}
+
+.contents-visual.technical_article_hero {
+    background-image: url(../images/blogs/hero-purigen-tech-articles-07d.jpg);
+}
+.scrollable {
+    overflow-x: scroll;
+}
+
+.scrollable img{
+    min-width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .article_title {
+        line-height: 1.1;
+    }
+    .article_desc {
+        line-height: 1.5;
+        font-size: 16px;
+    }
+    .article_view_title {
+        line-height: 1.2;
+    }    
+}
+
+@media (max-width: 640px) {
+	.contents-visual.blog_hero {
+    background-image: url(../images/mobile/m-hero-purigen-blogs-01b.jpg);
+    }
+	.contents-visual.technical_article_hero {
+    background-image: url(../images/mobile/hero-m-purigen-tech-articles-07e.jpg);
+    }
+    .contents-visual article .article_hero_title {
+        font-size: 28px;
+    }
+    .contents-visual article .article_hero_info {
+        font-size: 21px;
+    }
+    .contents-visual.contents-visual-article {
+        height: 200px;
+        padding: 0 0;
+    }
+    .article_read_wrapper .button-big {
+        margin: inherit;
+    }
+    .article_view_body h1 {
+        font-family: jubilat, serif;
+        font-size: 25px;
+        line-height: 1.2;
+    }
+    .article_view_body h3 {
+        color: #6abf4b;
+    }
+    .article_view_body p {
+        line-height: 1.5;
+    }
+    .article_view_body img {
+        max-width: 350px;
+        width: 100%;
+        margin-right: 0px;
+        padding: 20px 0 25px;    
+    }
+    .article_view_title {
+        font-family: jubilat, serif;
+        display: block;
+        max-width: 100%;
+        font-size: 34px;
+        line-height: 1.1;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    .article_view_subtitle {
+        min-width: 100%;
+        font-size: 20px;
+    }
+    .article_view_info {
+        padding-top: 10px;
+        padding-bottom: 15px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .article_view_wrapper .article-control {
+        margin-bottom: 10px;
+    }
+    .article_view_wrapper .article-control .article-back {
+        text-align: left;
+    }
+    .article_view_wrapper .article-control .article-forward {
+        text-align: right;
+    }
+}

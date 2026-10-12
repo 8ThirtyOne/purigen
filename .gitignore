@@ -1,0 +1,99 @@
+# ---------------------------------------------------------------
+# Secrets & credentials
+# ---------------------------------------------------------------
+.env
+.env.*
+!.env.example
+config/keys.php
+
+# Sphider-plus: DB credentials, admin login, generated tokens
+public_html/sphider/settings/database.php
+public_html/sphider/settings/db*/
+public_html/sphider/admin/settings/authentication.php
+public_html/sphider/admin/tmp/
+public_html/sphider/admin/backup/
+public_html/sphider/admin/cookie.txt
+
+# Mail autoconfig profile for a real mailbox
+public_html/.well-known/autoconfig/
+
+# Short-lived SSL validation tokens
+public_html/.well-known/acme-challenge/
+public_html/.well-known/pki-validation/
+
+# Keys / certificates
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+.htpasswd
+
+# ---------------------------------------------------------------
+# Admin uploads (WebHelper::UploadFile -> DOCUMENT_ROOT/files/<section>/)
+# Content lives on the server; filenames are referenced from the DB.
+# ---------------------------------------------------------------
+public_html/files/*
+!public_html/files/.gitkeep
+
+# ---------------------------------------------------------------
+# Heavy media - kept on the server only (GitHub: 100 MB/file, 2 GB/push)
+# ---------------------------------------------------------------
+public_html/media/
+public_html/videos/
+public_html/enews/
+*.mp4
+*.mov
+*.pdf
+*.zip
+*.psd
+
+# ---------------------------------------------------------------
+# Sphider runtime data (search logs, caches, generated sitemaps)
+# ---------------------------------------------------------------
+public_html/sphider/admin/log/
+public_html/sphider/admin/sitemaps/
+public_html/sphider/admin/thumbs/
+public_html/sphider/admin/urls/
+public_html/sphider/include/tmp/
+public_html/sphider/include/IDS/tmp/
+public_html/sphider/include/textcache/
+public_html/sphider/include/mediacache/
+public_html/sphider/include/thumbs/
+public_html/sphider/xml/
+
+# ---------------------------------------------------------------
+# Logs (may contain paths, queries, user input, emails)
+# ---------------------------------------------------------------
+*.log
+error_log
+php_errorlog
+
+# ---------------------------------------------------------------
+# Database dumps & test data
+# ---------------------------------------------------------------
+*.sql.gz
+*.dump
+*.sqlite
+*.sqlite3
+public_html/test_data
+
+# ---------------------------------------------------------------
+# Backups and stale copies (old copies of WebHelper hold secrets)
+# ---------------------------------------------------------------
+* - Copy*
+*.bak
+*.old
+*.orig
+*~
+*.swp
+public_html/lib/archive/
+public_html/view/video/register.php.zip
+
+# ---------------------------------------------------------------
+# OS / editor
+# ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
